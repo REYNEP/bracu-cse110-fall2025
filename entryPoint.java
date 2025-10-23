@@ -1,4 +1,5 @@
 import java.awt.event.WindowEvent;
+import org.lwjgl.vulkan.VkInstance;
 
 public class entryPoint {
     public static void main(String[] argumentVec) 
@@ -18,5 +19,7 @@ public class entryPoint {
                         window1.setBackground(java.awt.Color.WHITE);
                         window1.addWindowListener(EventKonsument1);
                         window1.setVisible(true);
+
+        VkInstance instance;
     }
 };

@@ -1,0 +1,34 @@
+plugins {
+    id 'application'
+        // 'application' is a name of a plugin itself
+}
+
+application {
+    mainClass = 'entryPoint'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    def lwjglVersion = '3.3.6'
+    implementation "org.lwjgl:lwjgl:${lwjglVersion}"
+    implementation "org.lwjgl:lwjgl-opengl:${lwjglVersion}"
+    implementation "org.lwjgl:lwjgl-glfw:${lwjglVersion}"
+    implementation "org.lwjgl:lwjgl-stb:${lwjglVersion}"
+    implementation "org.lwjgl:lwjgl-vulkan:${lwjglVersion}"
+
+    runtimeOnly "org.lwjgl:lwjgl:${lwjglVersion}:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-opengl:${lwjglVersion}:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-glfw:${lwjglVersion}:natives-windows"
+    runtimeOnly "org.lwjgl:lwjgl-stb:${lwjglVersion}:natives-windows"
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['.']    // 👈 this line makes Gradle compile your entryPoint.java directly
+        }
+    }
+}
