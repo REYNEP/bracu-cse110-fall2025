@@ -1,5 +1,7 @@
 import java.awt.event.WindowEvent;
-import org.lwjgl.vulkan.VkInstance;
+
+import org.lwjgl.vulkan.*;
+import org.lwjgl.system.MemoryStack;
 
 public class entryPoint {
     public static void main(String[] argumentVec) 
@@ -20,6 +22,15 @@ public class entryPoint {
                         window1.addWindowListener(EventKonsument1);
                         window1.setVisible(true);
 
-        VkInstance instance;
+        try(org.lwjgl.system.MemoryStack mStack               = MemoryStack.stackPush()) {
+            VkApplicationInfo            amVK_ApplicationInfo = VkApplicationInfo.calloc(mStack)
+                .pNext(0)
+                .sType(             VK10.VK_STRUCTURE_TYPE_APPLICATION_INFO)
+                .pApplicationName(  mStack.UTF8("amVK_ApplicationInfo.pApplicationName not given"))
+                .pEngineName(       mStack.UTF8("amVK_ApplicationInfo.pEngineName not given"))
+                .applicationVersion(VK10.VK_MAKE_API_VERSION(0, 0, 0, 0))
+                .engineVersion(     VK10.VK_MAKE_API_VERSION(0, 0, 0, 0))
+                .apiVersion(        VK10.VK_API_VERSION_1_0);
+        }
     }
 };
