@@ -17,12 +17,13 @@ dependencies {
     implementation "org.lwjgl:lwjgl-opengl:${lwjglVersion}"
     implementation "org.lwjgl:lwjgl-glfw:${lwjglVersion}"
     implementation "org.lwjgl:lwjgl-stb:${lwjglVersion}"
-    implementation "org.lwjgl:lwjgl-vulkan:${lwjglVersion}"
 
     runtimeOnly "org.lwjgl:lwjgl:${lwjglVersion}:natives-windows"
     runtimeOnly "org.lwjgl:lwjgl-opengl:${lwjglVersion}:natives-windows"
     runtimeOnly "org.lwjgl:lwjgl-glfw:${lwjglVersion}:natives-windows"
     runtimeOnly "org.lwjgl:lwjgl-stb:${lwjglVersion}:natives-windows"
+
+    implementation "org.lwjgl:lwjgl-vulkan:${lwjglVersion}"
 }
 
 sourceSets {

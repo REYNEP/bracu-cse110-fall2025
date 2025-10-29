@@ -1,7 +1,6 @@
 import java.awt.event.WindowEvent;
 
 import org.lwjgl.vulkan.*;
-import org.lwjgl.vulkan.VK10.*;
 import org.lwjgl.system.MemoryStack;
 
 public class entryPoint {
