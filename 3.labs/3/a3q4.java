@@ -5,6 +5,7 @@ public class a3q4 {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
 
+        // Print digits in Reverse
         int tmp = x;
         while(true) {
             if (tmp == 0) break;
