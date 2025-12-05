@@ -1,0 +1,25 @@
+/* 
+
+Courtasy of: https://github.com/MOO-ORG
+Source: https://github.com/MOO-ORG/CSE110/blob/main/Quiz/MSI_Quiz2.java
+
+Today is your birthday, and to celebrate, you went to a restaurant called ABCD Cafe. There are a total of N items.
+Among them, some are out of your budget because they are overpriced, while others are within your budget.
+Write a Java program that first takes an integer N (the number of items), followed by N space-separated prices
+and your budget for each item as input. The program should count the number of items within the budget,
+compute their percentage relative to N, and count the number of overpriced items. If the number of overpriced
+items exceeds 5, print "Warning: Too many items are overpriced." (7 marks)
+
+|`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````|
+|   Sample Input:                                           |   Sample Output:                                            |
+|   N = 10                                                  |   Items within budget: 4                                    |
+|   Prices: 100 999 250 999 990 500 40 800 705 300          |   Percentage: 40%                                           |
+|   Budget per item: 400                                    |   Items overpriced: 6                                       |
+|                                                           |   Warning: Too many items are overpriced.                   |
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+Explanation: Out of 10, 4 items (100, 250, 40, 300) are within budget, and 6 (999, 999, 990, 500, 800, 705) items
+are overpriced. Therefore, the percentage of items within budget is 40%.   
+
+
+*/
