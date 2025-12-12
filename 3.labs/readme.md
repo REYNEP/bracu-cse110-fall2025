@@ -20,5 +20,6 @@
 - lab5: `20 November, 2025`
 - _**midTerm 22nov-02dec**_
 - lab6: `11 December, 2025`
+- lab7: `18 December, 2025`
 
 </div>

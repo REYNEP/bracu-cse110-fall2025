@@ -8,6 +8,10 @@ What you need is:
 2. practice, practice, practice
 3. maybe a passion project
 
+</br>
+
+## This file is made with help from [**MOO-ORG**](https://github.com/MOO-ORG) ➡️ [[SRC: 🔗]](https://github.com/MOO-ORG/CSE110/blob/main/Books/tip%20.txt)
+
 ## 🗃️🏰 Where to find them (The Books)
 1. https://drive.google.com/drive/folders/1fifYgKC2mr8G1Pjf8pRE6Z5lCv-324uN
 2. https://drive.google.com/drive/u/6/folders/1nvG0qE3wqRe3ju4K8gvs9HdCFFBmrhSU

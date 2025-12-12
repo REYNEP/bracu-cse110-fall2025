@@ -26,10 +26,11 @@
 - lab5: `20 November, 2025`
 - _**midTerm 22nov-02dec**_
 - lab6: `11 December, 2025`
+- lab7: `18 December, 2025`
 
 ## This is CSE110: `Java I` `Fall2025` @ BRACU
-- `./0.outline/` - Course Outline / Mark Distribution
-- `./1.notes/` - PDF Notes from [bux](https://bux-home.bracu.ac.bd/courses/course-v1:buX+CSE110+2025_Fall)
+- `./0.outline` - Course Outline / Mark Distribution
+- `./1.notes` - PDF Notes from [bux](https://bux-home.bracu.ac.bd/courses/course-v1:buX+CSE110+2025_Fall)
 - `./2.java-tutorials` - REYNEP's Tutorials
 - `./3.labs` - What we do inside Lab + Assignments
 - `./4.exams` - MidTerm, LabExam/Quiz, Final Exam
@@ -38,17 +39,14 @@
     - well, never recommending books for "coding".
     - `OCW + Lectures + YT + Examples + Real World Code > Books`
     </br>
-
 - **Slides**: They are locked using `e/2PACX-` 
     - i.e. https://docs.google.com/presentation/d/e/2PACX-(extra-identification-letters)
 - Lecture Videos
     - [Bangla](https://youtube.com/playlist?list=PLvr0Ht-XkB_0KC2-N3hv0V3ib-Z6wKkAy)
     - [English](https://youtube.com/playlist?list=PLr9he3UyIy3mOj-ehFpODvCS1U2d2RtRQ)
     </br>
-
 - Course Curriculumn / **List of Topics by Week** ---- [./0.outline/readme.md](./0.outline/readme.md)
 - **Other Semesters** ---- [./ext.md](./ext.md)
-
 </div>
 
 

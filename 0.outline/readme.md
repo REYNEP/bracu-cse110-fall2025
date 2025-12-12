@@ -18,9 +18,7 @@
 4.  Week 4: loop
 5.  Week 5: nested loop
 6.  Week 6: pattern generation
-
     ##### </br> mid-terms </br></br>
-
 7.  Week 7: `string`
 8.  Week 8: `array`
 9.  Week 9: `Functions/Methods`
