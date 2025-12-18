@@ -27,11 +27,15 @@
 - _**midTerm 22nov-02dec**_
 - lab6: `11 December, 2025`
 - lab7: `18 December, 2025`
+    - Array Tracing: 
+        - https://www.youtube.com/watch?v=lxfa9ZCoRGE
+        - https://www.youtube.com/watch?v=o82c2OQ6H4Q
+- I'll add the Lab MarkSheet (.xlsx) @ the end of semester
 
 ## This is CSE110: `Java I` `Fall2025` @ BRACU
 - `./0.outline` - Course Outline / Mark Distribution
 - `./1.notes` - PDF Notes from [bux](https://bux-home.bracu.ac.bd/courses/course-v1:buX+CSE110+2025_Fall)
-- `./2.java-tutorials` - REYNEP's Tutorials
+- `./2.rey-tutorials` - REYNEP's Tutorials on Java
 - `./3.labs` - What we do inside Lab + Assignments
 - `./4.exams` - MidTerm, LabExam/Quiz, Final Exam
 - `./5.final-project` - bleh
@@ -46,6 +50,7 @@
     - [English](https://youtube.com/playlist?list=PLr9he3UyIy3mOj-ehFpODvCS1U2d2RtRQ)
     </br>
 - Course Curriculumn / **List of Topics by Week** ---- [./0.outline/readme.md](./0.outline/readme.md)
+- Course Curriculumn / Outline [Official PDF] ---- [./0.outline/bracu.cse110 - fall2025 - Course Outline.pdf](<./0.outline/bracu.cse110 - fall2025 - Course Outline.pdf>)
 - **Other Semesters** ---- [./ext.md](./ext.md)
 </div>
 

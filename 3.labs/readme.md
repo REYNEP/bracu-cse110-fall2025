@@ -13,13 +13,6 @@
 <div class="REY_ACADEMIA1">
 
 ### Dates
-- theory-start: `11 october, 2025`
-- lab1: `23 October, 2025`
-- lab2: `30 October, 2025`
-- lab3: `06 November, 2025` + `Fire Drill xD`
-- lab5: `20 November, 2025`
-- _**midTerm 22nov-02dec**_
-- lab6: `11 December, 2025`
-- lab7: `18 December, 2025`
+check inside the readme.md in parent folder 😉
 
 </div>
