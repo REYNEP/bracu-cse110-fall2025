@@ -9,7 +9,7 @@ public class numdle {
         // It's basically a guessing game, but when you guess, it tells you any of these three for each number:
         //      1. Whether it is in the correct position, or
         //      2. Whether it exists in the number, but is in the wrong position, or
-        //      3. Whether it doesn't exist at all
+        //      3. Whether it doesn't exist at all.
         //
         // The number must be a 4-digit number.
         // The user only gets 3 chances to guess a 4-digit number.
