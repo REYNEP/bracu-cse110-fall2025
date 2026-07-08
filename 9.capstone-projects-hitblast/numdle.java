@@ -13,6 +13,7 @@ public class numdle {
         //
         // The number must be a 4-digit number.
         // The user only gets 3 chances to guess a 4-digit number.
+        // YOU CANNOT USE BUILT-IN METHODS/LIBRARIES/FUNCTIONS.
         //
         // This solution is the in-class solution I had come up with, following with some modifications later down that same day.
         // I'll try to do a more "accurate" solution in numdle-accurate.java.
