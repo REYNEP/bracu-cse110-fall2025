@@ -48,11 +48,9 @@ public class numdle {
 
             int currentdivisor = 1000;
             int lastdivisor = 0;
-
-            int count = 1;
             int correctpos = 0;
 
-            for (int i = 0; i < digits; i++) {
+            for (int count = 1; count <= 4; count++) {
                 int x;
                 int y;
                 if (lastdivisor == 0) {
@@ -74,7 +72,7 @@ public class numdle {
                         id2seen = true;
                     } else if (count == 3) {
                         id3seen = true;
-                    } else {
+                    } else if (count == 4) {
                         id4seen = true;
                     }
                     correctpos += 1;
@@ -90,7 +88,6 @@ public class numdle {
                 } else {
                     System.out.println(y + " does not exist");
                 }
-                count++;
             }
 
             if (correctpos == 4) {
