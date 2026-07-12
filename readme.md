@@ -20,7 +20,9 @@ Last updated for: Summer'26; BRAC University, Bangladesh
 > [!NOTE]
 > You might get what is called "resource fatigue" while studying using this repository. The best practice for coding is to not actually "go through" resources, rather, learn *as you go*. This includes actually making something you might actually use.
 
-- **This course does NOT need learning build systems (e.g. Gradle).**
+- Follow [Recommended Resources](#recommended-resources) to get started off.
+- As you go through the lecture, follow the [Study Order](#study-order) to use the materials included in this repository.
+- **This course does NOT need learning build systems (e.g. Gradle),** so don't overthink about it.
 
 ## Study Order
 
