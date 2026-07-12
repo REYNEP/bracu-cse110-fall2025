@@ -3,8 +3,8 @@
 <img src="https://avatars.githubusercontent.com/u/280272449?s=200&v=4" width="100px">
 
 # CSE110
-Prepared by BRACULeaks
-Last updated for: Summer'26; BRAC University, Bangladesh <br>
+Prepared by BRACULeaks<br>
+Last updated for: Summer'26; BRAC University, Bangladesh
 
 </div>
 
@@ -13,6 +13,7 @@ Last updated for: Summer'26; BRAC University, Bangladesh <br>
 - [Before You Start](#before-you-start)
 - [Study Order](#study-order)
 - [Recommended Resources](#recommended-resources)
+- [External Resources](#external-resources)
 
 ## Before You Start
 
@@ -54,5 +55,9 @@ Last updated for: Summer'26; BRAC University, Bangladesh <br>
 
 - [Bro Code's 12 Hours of Java Tutorial](https://www.youtube.com/watch?v=xTtL8E4LzTQ) (only complete around 6 hours to get a complete marathon class for CSE110).
 - The same thing as above but [in a playlist](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc).
+
+## External Resources
+
+Curated in: [ext.md](./ext.md)
 
 Good luck studying Java!
