@@ -26,25 +26,10 @@ public class evenoddseparator {
             currentdivisor *= 10;
         }
 
-        int tempcurdivisor = currentdivisor;
         int lastdivisor = 0;
         int evens = 0;
         int odds = 0;
-        while (tempcurdivisor != 0) {
-            int x =
-                lastdivisor == 0
-                    ? number / tempcurdivisor
-                    : (number % lastdivisor) / tempcurdivisor;
-            lastdivisor = tempcurdivisor;
-            tempcurdivisor /= 10;
 
-            if (x % 2 == 0) evens++;
-            else odds++;
-        }
-
-        lastdivisor = 0;
-        int evennumberwhole = 0;
-        int oddnumberwhole = 0;
         while (currentdivisor != 0) {
             int x =
                 lastdivisor == 0
@@ -53,25 +38,15 @@ public class evenoddseparator {
             lastdivisor = currentdivisor;
             currentdivisor /= 10;
 
-            int pow = 1;
-            boolean isEven = x % 2 == 0;
-
-            for (int i = isEven ? evens : odds; i != 1; i--) {
-                pow *= 10;
-            }
-
-            int y = x * pow;
-            if (isEven) {
-                evennumberwhole += y;
-                evens--;
+            if (x % 2 == 0) {
+                evens = evens * 10 + x;
             } else {
-                oddnumberwhole += y;
-                odds--;
+                odds = odds * 10 + x;
             }
         }
 
-        System.out.println("Number with odd digits  : " + oddnumberwhole);
-        System.out.println("Number with even digits : " + evennumberwhole);
+        System.out.println("Number with odd digits  : " + odds);
+        System.out.println("Number with even digits : " + evens);
 
         scanner.close();
     }
