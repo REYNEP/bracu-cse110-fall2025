@@ -5,39 +5,26 @@ public class evenoddseparator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Even-Odd Separator 3000!");
-        System.out.println(
-            "Enter a digit, and get two new digits with even and odd numbers separated!\n"
-        );
-
-        System.out.print("Enter digit: ");
+        System.out.print("Enter number to separate: ");
         int number = scanner.nextInt();
 
-        int temp = number;
-
-        int currentdivisor = 1;
-        while (temp != 0) {
-            currentdivisor *= 10;
-            temp /= 10;
-        }
-
-        int lastdivisor = 0;
         int evens = 0;
         int odds = 0;
+        int evencount = 1;
+        int oddcount = 1;
 
-        while (currentdivisor != 0) {
-            int x =
-                lastdivisor == 0
-                    ? number / currentdivisor
-                    : (number % lastdivisor) / currentdivisor;
-            lastdivisor = currentdivisor;
-            currentdivisor /= 10;
+        while (number != 0) {
+            int x = number % 10;
 
             if (x % 2 == 0) {
-                evens = evens * 10 + x;
+                evens += x * evencount;
+                evencount *= 10;
             } else {
-                odds = odds * 10 + x;
+                odds += x * oddcount;
+                oddcount *= 10;
             }
+
+            number /= 10;
         }
 
         System.out.println(odds);
