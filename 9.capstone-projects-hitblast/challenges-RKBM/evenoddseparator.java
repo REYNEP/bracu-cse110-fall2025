@@ -14,16 +14,11 @@ public class evenoddseparator {
         int number = scanner.nextInt();
 
         int temp = number;
-        int digits = 0;
-
-        while (temp != 0) {
-            digits++;
-            temp /= 10;
-        }
 
         int currentdivisor = 1;
-        for (int i = 1; i < digits; i++) {
+        while (temp != 0) {
             currentdivisor *= 10;
+            temp /= 10;
         }
 
         int lastdivisor = 0;
@@ -45,8 +40,8 @@ public class evenoddseparator {
             }
         }
 
-        System.out.println("Number with odd digits  : " + odds);
-        System.out.println("Number with even digits : " + evens);
+        System.out.println(odds);
+        System.out.println(evens);
 
         scanner.close();
     }
