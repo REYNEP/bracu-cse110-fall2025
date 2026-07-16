@@ -8,12 +8,30 @@ Last updated for: Summer'26; BRAC University, Bangladesh
 
 </div>
 
+
+### How to get CGPA 4.0?
+- Theory Quiz / Lab Exam / midTerm / Final
+    - Solve lab assignments on your own.
+        - Don't use AI
+        - Don't ask friends at the first glance.
+        - Try die hard for at least 15-30minutes per problem.
+            - If you can come up with some code/psuedocode --> then, that's really nice.
+            - then, even if you can't, now you can ask friends for help :)
+    - Solve past year Theory Quiz & Lab Exam questions
+    - Solve practiceSheet questions
+    - Solve the questions from inside `1.2.notes` (i.e. which are the official notes for bracu.cse110)
+    - Solve these pSets from ST_BadhonNandi
+        - https://drive.google.com/drive/folders/1tdEqocBsaDPSstySABCduXZ0DxeHKz1k
+
 ## Table of Contents
 
-- [Before You Start](#before-you-start)
-- [Study Order](#study-order)
-- [Recommended Resources](#recommended-resources)
-- [External Resources](#external-resources)
+- [CSE110](#cse110)
+        - [How to get CGPA 4.0?](#how-to-get-cgpa-40)
+    - [Table of Contents](#table-of-contents)
+    - [Before You Start](#before-you-start)
+    - [Study Order](#study-order)
+    - [Recommended Resources](#recommended-resources)
+    - [External Resources](#external-resources)
 
 ## Before You Start
 
