@@ -22,6 +22,17 @@ Last updated for: Summer'26; BRAC University, Bangladesh
     - Solve the questions from inside `1.2.notes` (i.e. which are the official notes for bracu.cse110)
     - Solve these pSets from ST_BadhonNandi
         - https://drive.google.com/drive/folders/1tdEqocBsaDPSstySABCduXZ0DxeHKz1k
+        - I did include in `1.2.practiceSheets` folder too
+    - If any of the stuff above is feeling really hard:
+        - follow these videos:
+            - https://www.youtube.com/playlist?list=PLLkaPhRBVqfIdKjIv82AIuitXQIX92UXR
+            - https://www.youtube.com/playlist?list=PLvr0Ht-XkB_0KC2-N3hv0V3ib-Z6wKkAy
+
+
+### Videos
+- MSI (Fall 2022 - Python) Online Class Recordings: https://drive.google.com/drive/folders/1RUAUxeqBpPjJRGoOI97MPy7OQw2xNtTO
+
+
 
 ## Table of Contents
 
