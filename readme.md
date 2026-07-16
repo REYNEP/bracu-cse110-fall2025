@@ -10,34 +10,42 @@ Last updated for: Summer'26; BRAC University, Bangladesh
 
 
 ### How to get CGPA 4.0?
-- Theory Quiz / Lab Exam / midTerm / Final
-    - Solve lab assignments on your own.
-        - Don't use AI
-        - Don't ask friends at the first glance.
-        - Try die hard for at least 15-30minutes per problem.
-            - If you can come up with some code/psuedocode --> then, that's really nice.
-            - then, even if you can't, now you can ask friends for help :)
-    - Solve past year Theory Quiz & Lab Exam questions
-    - Solve practiceSheet questions
-    - Solve the questions from inside `1.2.notes` (i.e. which are the official notes for bracu.cse110)
-    - Solve these pSets from ST_BadhonNandi
-        - https://drive.google.com/drive/folders/1tdEqocBsaDPSstySABCduXZ0DxeHKz1k
+Theory Quiz / Lab Exam / midTerm / Final
+1. Solve lab assignments on your own.
+    - Don't use AI
+    - Don't ask friends at the first glance.
+    - Try die hard for at least 15-30minutes per problem.
+        - If you can come up with some code/psuedocode --> then, that's really nice.
+        - then, even if you can't, now you can ask friends for help :)
+        - ..
+2. Solve `2.practiceSheet` stuffs
+    1. Solve these **pSets** from **ST_BadhonNandi**
+        - [🔗](https://drive.google.com/drive/folders/1tdEqocBsaDPSstySABCduXZ0DxeHKz1k)
         - I did include in `1.2.practiceSheets` folder too
-    - If any of the stuff above is feeling really hard:
-        - follow these videos:
-            - https://www.youtube.com/playlist?list=PLLkaPhRBVqfIdKjIv82AIuitXQIX92UXR
-            - https://www.youtube.com/playlist?list=PLvr0Ht-XkB_0KC2-N3hv0V3ib-Z6wKkAy
+        - ..
+    2. solve `mid/final pSet` 
+    3. also,
+        - you can, solve the questions from inside `1.2.notes` (i.e. which are the official notes for bracu.cse110)
+        - but not "required"
+3. Solve `3.exams`
+    - past year Theory Quiz 
+    - past year Lab Exam
+    - past year mid/Final 
+- If any of the stuff above is feeling really hard:
+    - follow these videos:
+        - Abu Talha: [🔗](https://www.youtube.com/playlist?list=PLLkaPhRBVqfIdKjIv82AIuitXQIX92UXR)
+        - TAW BuX: [🔗](https://www.youtube.com/playlist?list=PLvr0Ht-XkB_0KC2-N3hv0V3ib-Z6wKkAy)
 
 
 ### Videos
 - MSI (Fall 2022 - Python) Online Class Recordings: https://drive.google.com/drive/folders/1RUAUxeqBpPjJRGoOI97MPy7OQw2xNtTO
 
 
-
 ## Table of Contents
 
 - [CSE110](#cse110)
         - [How to get CGPA 4.0?](#how-to-get-cgpa-40)
+        - [Videos](#videos)
     - [Table of Contents](#table-of-contents)
     - [Before You Start](#before-you-start)
     - [Study Order](#study-order)
