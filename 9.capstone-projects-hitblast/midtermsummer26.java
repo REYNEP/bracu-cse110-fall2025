@@ -11,12 +11,23 @@ public class midtermsummer26 {
         smallest divisor of the number of digits.
 
         To solve this problem:
-        1. Count the digits:
+
+        1. Count the digits.
+
         2. Determine the smallest divisor for the number of digits (e.g. if its a number with 8 digits, the smallest divisor is 2).
-        2. Based on the smallest divisor that you've found just now:
-            (i) Keep a mental model of the chunks. If its an 8-digit number and the smallest divisor is 2,
+            NOTE: If a divisor cannot be determined (since the lowest "smallest divisor" is 2), use 1 as its fallback
+                (e.g. the only "proper" divisor of 7 is 1, so 1 shall be the block size).
+
+        3. Based on the smallest divisor that you've found just now:
+            (i) Keep a mental model of the chunks.
+
+                If its an 8-digit number and the smallest divisor is 2,
                 each chunk will have exactly two digits, like this:
                 12345678 -> 12 34 56 78
+
+                For a 7-digit number, it uses 1 as the fallback size, so the chunks are as follows:
+                1234567 -> 1 2 3 4 5 6 7
+
             (ii) Now just based on this mental model, make a loop which:
                 - Gets each chunk.
                 - Determines whether the number is a prime number of not.
