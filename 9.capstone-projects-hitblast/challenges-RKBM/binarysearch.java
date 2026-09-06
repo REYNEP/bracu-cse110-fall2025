@@ -2,7 +2,9 @@ public class binarysearch {
 
     public static int bsRecurse(int[] arr, int low, int high, int find) {
         if (low > high) return -1;
-        int mid = low + (high - low) / 2;
+
+        int offset = (high - low) / 2;
+        int mid = low + offset;
 
         if (arr[mid] == find) return mid;
         else if (arr[mid] < find) return bsRecurse(arr, mid + 1, high, find);
